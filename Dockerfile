@@ -1,4 +1,4 @@
-FROM php:8.1-apache
+FROM php:8.5.3RC1-apache
 
 ARG env
 RUN test -n "$env"
